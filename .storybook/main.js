@@ -1,4 +1,5 @@
 module.exports = {
+  builder: 'webpack5',
   stories: ['../stories/index.js'],
   addons: [
     {
