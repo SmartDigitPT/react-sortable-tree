@@ -159,13 +159,13 @@ class TreeNodeComponent extends Component<TreeRendererProps> {
         const style =
           rowDirection === 'rtl'
             ? {
-                width: scaffoldBlockPxWidth,
-                right: scaffoldBlockPxWidth * i,
-              }
+              width: scaffoldBlockPxWidth,
+              right: scaffoldBlockPxWidth * i,
+            }
             : {
-                width: scaffoldBlockPxWidth,
-                left: scaffoldBlockPxWidth * i,
-              }
+              width: scaffoldBlockPxWidth,
+              left: scaffoldBlockPxWidth * i,
+            }
 
         scaffold.push(
           <div
