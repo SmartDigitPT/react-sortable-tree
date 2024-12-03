@@ -1,6 +1,6 @@
 {
   "name": "@marciocamello/react-sortable-tree",
-  "version": "4.4.2",
+  "version": "4.4.3",
   "description": "Drag-and-drop sortable component for nested data and hierarchies",
   "main": "./index.js",
   "module": "./esm/index.js",
@@ -60,10 +60,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "contributors": [
-    "Chris Fritz",
-    "Vitalii Shvetsov"
-  ],
   "license": "MIT",
   "bugs": "https://github.com/SmartDigitPT/react-sortable-tree/issues",
   "dependencies": {
